@@ -9,7 +9,11 @@ import {
     MediaQuery,
     Burger,
     useMantineTheme,
+    Image,
 } from '@mantine/core';
+import { Outlet, Link } from 'react-router-dom'
+
+import AppShellContent from "../components/AppShellContent";
 
 export default function AppShellDemo() {
     const theme = useMantineTheme();
@@ -26,7 +30,9 @@ export default function AppShellDemo() {
             fixed
             navbar={
                 <Navbar p="md" hiddenBreakpoint="sm" hidden={!opened} width={{ sm: 200, lg: 300 }}>
-                    <Text>Application navbar</Text>
+                    <Text component={Link} to="/">Inicio</Text>
+                    <Text component={Link} to="/rules">Reglas Incoterms 2020</Text>
+                    <Text>Menú</Text>
                 </Navbar>
             }
             aside={
@@ -38,12 +44,12 @@ export default function AppShellDemo() {
             }
             footer={
                 <Footer height={60} p="md">
-                    Application footer
+                    Universidad Autónoma de Occidente
                 </Footer>
             }
             header={
-                <Header height={70} p="md">
-                    <div style={{ display: 'flex', alignItems: 'center', height: '100%' }}>
+                <Header height={70} p="md" bg="black">
+                    <div style={{ display: 'flex', alignItems: 'center', height: '100%'}}>
                         <MediaQuery largerThan="sm" styles={{ display: 'none' }}>
                             <Burger
                                 opened={opened}
@@ -54,12 +60,15 @@ export default function AppShellDemo() {
                             />
                         </MediaQuery>
 
-                        <Text>Application header</Text>
+                        <Image
+                            src="logowss.png"
+                            width="50%"
+                        />
                     </div>
                 </Header>
             }
         >
-            <Text>Resize app to see responsive navbar in action</Text>
+            <Outlet />
         </AppShell>
     );
 }
