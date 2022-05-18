@@ -10,7 +10,6 @@ import {
     Burger,
     useMantineTheme,
     Image,
-    Button,
 } from '@mantine/core';
 import { Outlet, Link } from 'react-router-dom'
 
