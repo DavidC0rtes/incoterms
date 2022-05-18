@@ -24,7 +24,7 @@ const HomeStack = () => {
             link: "/incoterms-dont",
         }
     ]
-
+    //eslint-disable-next-line
     return (
         <Stack>
             {cards.map((card, i) => (

@@ -13,7 +13,6 @@ import {
 } from '@mantine/core';
 import { Outlet, Link } from 'react-router-dom'
 
-import AppShellContent from "../components/AppShellContent";
 
 export default function AppShellDemo() {
     const theme = useMantineTheme();
