@@ -10,6 +10,7 @@ import {
     Burger,
     useMantineTheme,
     Image,
+    Button,
 } from '@mantine/core';
 import { Outlet, Link } from 'react-router-dom'
 
@@ -19,11 +20,7 @@ export default function AppShellDemo() {
     const [opened, setOpened] = useState(false);
     return (
         <AppShell
-            styles={{
-                main: {
-                    background: theme.colorScheme === 'dark' ? theme.colors.dark[8] : theme.colors.gray[0],
-                },
-            }}
+
             navbarOffsetBreakpoint="sm"
             asideOffsetBreakpoint="sm"
             fixed
@@ -31,7 +28,6 @@ export default function AppShellDemo() {
                 <Navbar p="md" hiddenBreakpoint="sm" hidden={!opened} width={{ sm: 200, lg: 300 }}>
                     <Text component={Link} to="/">Inicio</Text>
                     <Text component={Link} to="/rules">Reglas Incoterms 2020</Text>
-                    <Text>Menú</Text>
                 </Navbar>
             }
             aside={
@@ -47,7 +43,7 @@ export default function AppShellDemo() {
                 </Footer>
             }
             header={
-                <Header height={70} p="md" bg="black">
+                <Header height={70} p="md" style={{background: 'navy'}}>
                     <div style={{ display: 'flex', alignItems: 'center', height: '100%'}}>
                         <MediaQuery largerThan="sm" styles={{ display: 'none' }}>
                             <Burger

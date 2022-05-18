@@ -14,13 +14,13 @@ const HomeStack = () => {
         {
             src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.VQqM5eC_xtCCROPJat1fcAHaFV%26pid%3DApi&f=1",
             title: "Primeros pasos",
-            text: "Lo que las Incoterms 20202 sí son",
+            text: "Lo que las Incoterms 2020 sí son",
             link: "/incoterms-do",
         },
         {
             src: "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.jaysonlawgroup.com%2Fwp-content%2Fuploads%2F2015%2F04%2FRed-Traffic-Light.jpg&f=1&nofb=1",
             title: "Primeros pasos",
-            text: "Lo que las Incoterms 20202 no son",
+            text: "Lo que las Incoterms 2020 no son",
             link: "/incoterms-dont",
         }
     ]
