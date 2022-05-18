@@ -29,7 +29,6 @@ function App() {
                     <Route path="rules" element={<Rules/>} />
                     <Route path={"rules/fca"} element={<FCA/>} />
                     <Route path={"rules/exw"} element={<EXW/>} />
-
                 </Route>
             </Routes>
         </BrowserRouter>
