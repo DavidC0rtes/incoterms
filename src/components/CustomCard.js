@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 const CustomCard = (props) => {
     return (
         <Card
-            shadow="sm"
+            shadow="md"
             p="xl"
             component={Link}
             to={props.link}
@@ -20,7 +20,7 @@ const CustomCard = (props) => {
                 />
             </Card.Section>
 
-            <Text weight={500} size="lg">
+            <Text weight={600} size="md">
                 {props.title}
             </Text>
 

@@ -2,9 +2,17 @@ import {Container, Image, Title} from "@mantine/core";
 
 const TextWall = (props) => {
     return (
-        <Container size="lg" px="0">
-            <Image width="100%" src={props.img}/>
-            <Title order={1}>{props.title}</Title>
+        <Container size="lg" px="0" style={{alignContent:'left'}}>
+            <div style={{justifyContent: 'center'}}>
+                <Image
+                    width={props.w}
+                    height={props.h}
+                    src={props.img}
+                    fit="contain"
+                    radius="md"
+                />
+            </div>
+            <Title order={props.titleOrder || 1}>{props.title}</Title>
 
             <hr/>
 

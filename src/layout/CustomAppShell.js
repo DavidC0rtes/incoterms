@@ -12,6 +12,8 @@ import {
     Image,
 } from '@mantine/core';
 import { Outlet, Link } from 'react-router-dom'
+import ModalHomePage from "../components/ModalHomePage";
+import CustomStepper from "../components/CustomStepper";
 
 
 export default function AppShellDemo() {
@@ -19,7 +21,6 @@ export default function AppShellDemo() {
     const [opened, setOpened] = useState(false);
     return (
         <AppShell
-
             navbarOffsetBreakpoint="sm"
             asideOffsetBreakpoint="sm"
             fixed
@@ -42,7 +43,7 @@ export default function AppShellDemo() {
                 </Footer>
             }
             header={
-                <Header height={70} p="md" style={{background: 'navy'}}>
+                <Header height={70} p="md" style={{background: 'white'}}>
                     <div style={{ display: 'flex', alignItems: 'center', height: '100%'}}>
                         <MediaQuery largerThan="sm" styles={{ display: 'none' }}>
                             <Burger
@@ -55,7 +56,7 @@ export default function AppShellDemo() {
                         </MediaQuery>
 
                         <Image
-                            src="logowss.png"
+                            src="incotermslogo.png"
                             width="50%"
                         />
                     </div>
