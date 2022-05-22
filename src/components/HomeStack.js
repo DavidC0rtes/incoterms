@@ -7,7 +7,7 @@ const HomeStack = () => {
     const cards = [
         {
             src: "https://images.unsplash.com/photo-1605745341112-85968b19335b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
-            title: "¿Sabes qué son los Incoterms® 2020?",
+            title: "¿Quieres aprender como usar los Incoterms® 2020 en tu empresa?",
             text: "Toma una breve introducción",
             link: "/steps"
         },

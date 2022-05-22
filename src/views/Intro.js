@@ -12,7 +12,8 @@ const Intro = () => {
     return (
         <div>
 
-            <Title>Introducción a Incoterms® 2020</Title>
+            <Title align="center">Introducción a los Incoterms® 2020</Title>
+
             <Image
                 radius="md"
                 src="https://blog.solarnub.com/wp-content/uploads/2019/11/Incoterms-2020.jpg"

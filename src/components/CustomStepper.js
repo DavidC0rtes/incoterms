@@ -8,8 +8,8 @@ import Intro from "../views/Intro";
 import TransportModes from "../views/TransportModes";
 
 const CustomStepper = () => {
-    const [active, setActive] = useState(1)
-    const nextStep = () => setActive((current) => (current < 3 ? current + 1 : current))
+    const [active, setActive] = useState(0)
+    const nextStep = () => setActive((current) => (current < 5 ? current + 1 : current))
     const prevStep = () => setActive((current) => (current > 0 ? current - 1 : current))
 
     return (
@@ -38,8 +38,8 @@ const CustomStepper = () => {
             {active === 0 && <Intro/>}
             {active === 1 && <TransportModes/>}
             <Group position="center" mt="md">
-                <Button onClick={prevStep}>Anterior</Button>
-                <Button onClick={nextStep}>Siguiente nivel</Button>
+                <Button onClick={prevStep} color="indigo">Anterior</Button>
+                <Button onClick={nextStep} color="indigo">Siguiente nivel</Button>
             </Group>
         </>
     )

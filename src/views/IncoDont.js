@@ -17,7 +17,7 @@ const IncoDont = () => {
                 </Text>
             </p>
             <Text>Las reglas Incoterms® no se ocupan de lo siguiente:</Text>
-            <List>
+            <List spacing={"sm"}>
                 <List.Item>Si se realiza un contrato o una venta si quiera.</List.Item>
                 <List.Item>Las especificaciones de los bienes vendidos.</List.Item>
                 <List.Item>El tiempo, lugar, método o moneda de pago.</List.Item>

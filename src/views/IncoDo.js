@@ -16,7 +16,7 @@ const IncoDo = () => {
                 </Text>
             </p>
             <Text>Los Incoterms® describen:</Text>
-            <List>
+            <List spacing={"sm"}>
                 <List.Item><b>Obligaciones:</b> Quién hace qué entre el comprador y el vendedor, p.e. quién organiza
                     el transporte y seguro de las mercancías, o quién debe obtener documentos de embarque y licencias
                     de importación o exportación.
