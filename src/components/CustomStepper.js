@@ -1,4 +1,4 @@
-import { useState } from "react";
+import {useState, useEffect } from "react";
 import {
     Stepper,
     Button,
@@ -6,12 +6,24 @@ import {
 } from '@mantine/core'
 import Intro from "../views/Intro";
 import TransportModes from "../views/TransportModes";
+import RuleTabs from "../views/RuleTabs";
 
 const CustomStepper = () => {
-    const [active, setActive] = useState(0)
+    const [active, setActive] = useState(() => {
+        const val = sessionStorage.getItem('step')
+
+        return val !== null
+            ? JSON.parse(val)
+            : 0
+    })
+
     const nextStep = () => setActive((current) => (current < 5 ? current + 1 : current))
     const prevStep = () => setActive((current) => (current > 0 ? current - 1 : current))
 
+    useEffect(() => {
+        sessionStorage.setItem('step', JSON.stringify(active))
+        window.scrollTo(0,0)
+    },[active])
     return (
         <>
             <ScrollArea>
@@ -37,6 +49,7 @@ const CustomStepper = () => {
             </ScrollArea>
             {active === 0 && <Intro/>}
             {active === 1 && <TransportModes/>}
+            {active === 2 && <RuleTabs/>}
             <Group position="center" mt="md">
                 <Button onClick={prevStep} color="indigo">Anterior</Button>
                 <Button onClick={nextStep} color="indigo">Siguiente nivel</Button>
