@@ -1,8 +1,16 @@
-import { useState } from 'react'
+import {useEffect, useState} from 'react'
 import { Text, Button, Modal } from "@mantine/core";
 
 const ModalHomePage = () => {
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState(() => {
+        const val = JSON.parse(sessionStorage.getItem('click'))
+        
+        return val !== false
+    });
+
+    useEffect(() => {
+        sessionStorage.setItem('click', JSON.stringify(open))
+    }, [open])
 
     return (
         <Modal
