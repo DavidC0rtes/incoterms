@@ -5,17 +5,16 @@ import TextWall from "../components/TextWall";
 const IncoDont = () => {
     return (
         <TextWall
-            img="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.jaysonlawgroup.com%2Fwp-content%2Fuploads%2F2015%2F04%2FRed-Traffic-Light.jpg&f=1&nofb=1"
-            title="Lo que las reglas Incoterms® no son"
+            img="incodont.png"
+            title="¿Qué no cubren los Incoterms® 2020?"
         >
-            <p>
-                <Text>
+
+            <Text>
                     Las reglas Incoterms® NO son por si solas -- y por consiguiente no son sustituto de -- un contrato
                     de venta. Estan diseñadas para reflejar la práctica comercial para ningún tipo en particular de bienes.
                     Se pueden utilizar tanto para el comercio de una carga a granel de mineral de hierro, como para cinco
                     contenedores de equipos electrónicos, o diez pallets de flores frescas transportadas por vía aérea.
-                </Text>
-            </p>
+            </Text>
             <Text>Las reglas Incoterms® no se ocupan de lo siguiente:</Text>
             <List spacing={"sm"}>
                 <List.Item>Si se realiza un contrato o una venta si quiera.</List.Item>
@@ -31,12 +30,10 @@ const IncoDont = () => {
                 <List.Item>Derechos de propiedad intelectual, o</List.Item>
                 <List.Item>el método, el lugar o la ley de resolución de disputas en caso de tal incumplimiento.</List.Item>
             </List>
-            <p>
                 <Text>
                     Quizá aún más importante, las reglas Incoterms® NO se ocupan de la transferencia de propiedad,
                     título,posesión de los bienes vendidos.
                 </Text>
-            </p>
         </TextWall>
     )
 }

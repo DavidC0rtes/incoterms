@@ -13,9 +13,7 @@ const TextWall = (props) => {
                 />
             </div>
             <Title order={props.titleOrder || 1}>{props.title}</Title>
-
             <hr/>
-
             {props.children}
         </Container>
     )

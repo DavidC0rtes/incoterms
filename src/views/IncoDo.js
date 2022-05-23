@@ -5,16 +5,15 @@ import TextWall from "../components/TextWall";
 const IncoDo = () => {
     return (
         <TextWall
-            img="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.VQqM5eC_xtCCROPJat1fcAHaFV%26pid%3DApi&f=1"
-            title="Lo que las reglas Incoterms® son"
+            img="incodo.png"
+            title="¿Qué cubren los Incoterms® 2020?"
         >
-            <p>
-                <Text>
-                    Las reglas Incoterms® explican un conjunto de once de los acrónimos comerciales más utilizados
-                    en la industria, e.g. CIF, DAP, etc.., que reflejan la práctica comercial en los contratos de
-                    compra y venta de bienes.
-                </Text>
-            </p>
+
+            <Text>
+                Las reglas Incoterms® explican un conjunto de once de los acrónimos comerciales más utilizados
+                en la industria, e.g. CIF, DAP, etc.., que reflejan la práctica comercial en los contratos de
+                compra y venta de bienes.
+            </Text>
             <Text>Los Incoterms® describen:</Text>
             <List spacing={"sm"}>
                 <List.Item><b>Obligaciones:</b> Quién hace qué entre el comprador y el vendedor, p.e. quién organiza
@@ -32,13 +31,11 @@ const IncoDo = () => {
                 </List.Item>
             </List>
 
-            <p>
-                <Text>
+            <Text>
                     Las reglas Incoterms® cubren estas áreas en un conjunto de diez artículos, numerados A1/B1 y así
                     sucesivamente. Los artículos que inician con A representan las obligaciones del vendedor y
                     aquellos que inician con la letra B representan las obligaciones del comprador.
-                </Text>
-            </p>
+            </Text>
         </TextWall>
     )
 }

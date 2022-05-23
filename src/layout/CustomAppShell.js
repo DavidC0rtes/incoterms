@@ -12,9 +12,6 @@ import {
     Image,
 } from '@mantine/core';
 import { Outlet, Link } from 'react-router-dom'
-import ModalHomePage from "../components/ModalHomePage";
-import CustomStepper from "../components/CustomStepper";
-
 
 export default function AppShellDemo() {
     const theme = useMantineTheme();
@@ -41,6 +38,7 @@ export default function AppShellDemo() {
                 <Footer height={60} p="md">
                     Universidad Autónoma de Occidente
                 </Footer>
+
             }
             header={
                 <Header height={70} p="md" style={{background: 'white'}}>
@@ -57,7 +55,12 @@ export default function AppShellDemo() {
 
                         <Image
                             src="incotermslogo.png"
-                            width="50%"
+                            width="60%"
+                        />
+                        <Image
+                            src="logo.png"
+                            height="100%"
+                            width="100%"
                         />
                     </div>
                 </Header>

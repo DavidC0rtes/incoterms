@@ -10,8 +10,7 @@ import IncoDont from "./IncoDont";
 
 const Intro = () => {
     return (
-        <div>
-
+        <>
             <Title align="center">Introducción a los Incoterms® 2020</Title>
 
             <Image
@@ -22,14 +21,12 @@ const Intro = () => {
             />
 
             <Text>
-                <p>
                     Los Incoterms® 2020 son los términos comerciales oficiales publicados por la Cámara de Comercio Internacional (CCI).
                     Se trata de un texto voluntario, autorizado, aceptado y respetado en todo el mundo para determinar
                     las responsabilidades de compradores y vendedores en la entrega de mercancías en el marco de los contratos de venta
                     para el comercio internacional.
                     Los Incoterms se corresponden estrechamente con la Convención de las Naciones Unidas sobre los Contratos de Compraventa Internacional de Mercaderías.
                     Además, los Incoterms son conocidos y aplicados por las principales naciones comerciales.
-                </p>
             </Text>
 
             <AspectRatio ratio={4 / 3} mx="auto">
@@ -58,7 +55,7 @@ const Intro = () => {
 
             <IncoDo />
             <IncoDont />
-        </div>
+        </>
     )
 }
 
