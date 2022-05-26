@@ -4,7 +4,7 @@ import { Text, Button, Modal } from "@mantine/core";
 const ModalHomePage = () => {
     const [open, setOpen] = useState(() => {
         const val = JSON.parse(sessionStorage.getItem('click'))
-        
+
         return val !== false
     });
 
