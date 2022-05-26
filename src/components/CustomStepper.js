@@ -7,6 +7,7 @@ import {
 import Intro from "../views/Intro";
 import TransportModes from "../views/TransportModes";
 import RuleTabs from "../views/RuleTabs";
+import CustomQuiz from "./CustomQuiz";
 
 const CustomStepper = () => {
     const [active, setActive] = useState(() => {
@@ -50,6 +51,7 @@ const CustomStepper = () => {
             {active === 0 && <Intro/>}
             {active === 1 && <TransportModes/>}
             {active === 2 && <RuleTabs/>}
+            {active === 3 && <CustomQuiz/>}
             <Group position="center" mt="md">
                 <Button onClick={prevStep} color="indigo">Anterior</Button>
                 <Button onClick={nextStep} color="indigo">Siguiente nivel</Button>
