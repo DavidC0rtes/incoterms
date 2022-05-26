@@ -11,9 +11,13 @@ const FCA = () => {
             <Title order={3}>Free Carrier / Franco porteador</Title>
             <br />
             <AspectRatio ratio={4/3} mx="auto">
-                <iframe src="https://drive.google.com/file/d/1rcCJETrqHhjFo5jyxvlgoO50SztkYnPl/preview" width="640" height="480" allow="autoplay"></iframe>
+                <iframe title="video-fca"
+                        src="https://drive.google.com/file/d/1rcCJETrqHhjFo5jyxvlgoO50SztkYnPl/preview"
+                        width="640" height="480"
+                        allow="autoplay">
+                </iframe>
             </AspectRatio>
-
+            <br/>
             <Text>En este Incoterms®️ 2020 existen dos modalidades de
                 entrega y riesgo de la mercancía:</Text>
 
@@ -22,7 +26,8 @@ const FCA = () => {
                 <List.Item>Cuando el lugar designado es otro, se debe acordar o concretar un punto de entrega de la mercancía al transportista elegido por el comprador, en los medios de transporte del vendedor preparada para la descarga.</List.Item>
             </List>
             <br/>
-
+            <Image src="../FCAimg.jpg"/>
+            <br/>
             <Title order={4}>Consideraciones</Title>
             <List>
                 <List.Item>Cuenta con dos condiciones de entrega.</List.Item>

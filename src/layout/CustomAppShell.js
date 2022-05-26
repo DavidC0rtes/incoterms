@@ -35,7 +35,7 @@ export default function AppShellDemo() {
                 </MediaQuery>
             }
             footer={
-                <Footer height={60} p="md">
+                <Footer height={60} p="md" style={{textAlign: 'center'}}>
                     Universidad Autónoma de Occidente
                 </Footer>
 
@@ -54,11 +54,11 @@ export default function AppShellDemo() {
                         </MediaQuery>
 
                         <Image
-                            src="incotermslogo.png"
-                            width="60%"
+                           src="https://i.ibb.co/4mtV3b9/incotermslogo.png"
+                           width="60%"
                         />
                         <Image
-                            src="logo.png"
+                            src="https://i.ibb.co/6NPzC70/logo.png"
                             height="100%"
                             width="100%"
                         />

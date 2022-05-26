@@ -3,7 +3,7 @@ import {
     Title,
     Container,
     Text,
-    List,
+    List, AspectRatio,
 } from "@mantine/core";
 
 
@@ -11,9 +11,11 @@ const EXW = () => {
     return(
         <Container size="md">
             <Title order={2}> Ex Works / En fábrica</Title>
+            <Text xs="sm">Incluir el lugar de entrega designado.</Text>
             <br />
             <Image src={"../exw.gif"} radius={4} alt="GIF trabajadores desplazando pallets."/>
             <Title order={4}>Definición</Title>
+            <br/>
             <Text align="justify">
                 El exportador entrega la mercancía a disposición del
                 importador en el lugar designado por él mismo,
@@ -21,6 +23,14 @@ const EXW = () => {
                 El importador asume todos los riesgos y los costos desde el momento que recibe la mercancía hasta su destino.
             </Text>
             <br />
+            <AspectRatio ratio={4/3} mx="auto">
+                <iframe title="exw"
+                        src="https://drive.google.com/file/d/1785xlcg-j6MbSeq54lgs_W_jJ8iRYm7H/preview"
+                        width="640" height="480"
+                        allow="autoplay">
+                </iframe>
+            </AspectRatio>
+            <br/>
             <Title order={4}>Consideraciones</Title>
                 <List>
                     <List.Item>El exportador indica el lugar de entrega de la mercancía.</List.Item>
@@ -45,6 +55,11 @@ const EXW = () => {
                 <List.Item>Se recomienda validar la información declarada en el BL o Guía Aérea o Carta Porte.</List.Item>
                 <List.Item>Los datos del consignatario deben ser claros y precisos.</List.Item>
             </List>
+            <Image
+                radius={4}
+                alt="Regla EXW"
+                src={"https://i.ibb.co/wsfnNQ3/EXW-infografia.jpg"}
+            />
         </Container>
     )
 }

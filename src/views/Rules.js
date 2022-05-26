@@ -15,28 +15,28 @@ const Rules = () => {
         },
         {
             src: "cpt.png",
-            title: "",
-            text: "CPT - Carriage Paid To",
+            title: "CPT - Carriage Paid To",
             link: "/rules/cpt",
         },
         {
             src: "cip.png",
-            text: "CIP - Carriage and Insurance Paid To",
+            title: "CIP",
+            text: "Carriage and Insurance Paid To",
             link: "/rules/cip",
         },
         {
             src: "dap.png",
-            text: "DAP - Delivered At Place",
+            title: "DAP - Delivered At Place",
             link: "/rules/dap",
         },
         {
             src: "dpu.png",
-            text: "DPU - Delivered at Place Unloaded",
+            title: "DPU - Delivered at Place Unloaded",
             link: "/rules/dpu",
         },
         {
             src: "ddp.png",
-            text: "DDP - Delivered Duty Paid",
+            title: "DDP - Delivered Duty Paid",
             link: "/rules/ddp",
         }
     ]

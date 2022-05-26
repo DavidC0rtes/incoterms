@@ -1,5 +1,6 @@
 import CustomTabs from "../components/CustomTabs";
 import Rules from "./Rules";
+import SeaRules from "./SeaRules";
 
 const tabs = [
     {
@@ -9,7 +10,7 @@ const tabs = [
     },
     {
         label: "Maritimo",
-        content: <Rules />,
+        content: <SeaRules />,
         color: "indigo"
     }
 ]
