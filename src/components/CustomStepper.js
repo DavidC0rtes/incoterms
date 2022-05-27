@@ -9,6 +9,7 @@ import TransportModes from "../views/TransportModes";
 import RuleTabs from "../views/RuleTabs";
 import CustomQuiz from "./CustomQuiz";
 import LinksOfInterest from "../views/LinksOfInterest";
+import SubscribeBtn from "./SubscribeBtn";
 
 const CustomStepper = () => {
     const [active, setActive] = useState(() => {
@@ -58,6 +59,7 @@ const CustomStepper = () => {
                 <Button onClick={prevStep} color="indigo">Anterior</Button>
                 <Button onClick={nextStep} color="indigo">Siguiente</Button>
             </Group>
+            <SubscribeBtn/>
         </>
     )
 }
