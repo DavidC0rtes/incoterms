@@ -4,6 +4,7 @@ import {
     Container,
     Text,
     List, AspectRatio,
+    Grid,
 } from "@mantine/core";
 import GoBack from "../../components/GoBack";
 
@@ -11,7 +12,15 @@ import GoBack from "../../components/GoBack";
 const EXW = () => {
     return(
         <Container size="md">
-            <Title order={2}> Ex Works / En fábrica</Title>
+            <Grid>
+                <Grid.Col span={10}>
+                    <Title order={2}> Ex Works / En fábrica</Title>
+                </Grid.Col>
+                <Grid.Col span={2}>
+                    <Image src="https://i.ibb.co/NKNYRtX/simbolos.png" />
+                </Grid.Col>
+            </Grid>
+
             <Text xs="sm">Incluir el lugar de entrega designado.</Text>
             <br />
             <Image src={"../exw.gif"} radius={4} alt="GIF trabajadores desplazando pallets."/>

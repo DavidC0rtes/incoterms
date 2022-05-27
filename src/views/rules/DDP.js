@@ -1,10 +1,18 @@
-import {AspectRatio, Container, Image, Text, Title} from "@mantine/core";
+import {AspectRatio, Container, Grid, Image, Text, Title} from "@mantine/core";
 import GoBack from "../../components/GoBack";
 
 const DDP = () => {
     return (
         <Container>
-            <Title order={3}>DDP (Delivered Duty Paid)</Title>
+            <Grid>
+                <Grid.Col span={10}>
+                    <Title order={3}>DDP (Delivered Duty Paid)</Title>
+                </Grid.Col>
+                <Grid.Col span={2}>
+                    <Image src="https://i.ibb.co/NKNYRtX/simbolos.png" />
+                </Grid.Col>
+            </Grid>
+
             <Text xs="sm">Entrega con Derechos Pagados</Text>
             <br/>
 

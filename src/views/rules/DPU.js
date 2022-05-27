@@ -1,10 +1,18 @@
-import {AspectRatio, Container, Image, Text, Title} from "@mantine/core";
+import {AspectRatio, Container, Image, Text, Title, Grid} from "@mantine/core";
 import GoBack from "../../components/GoBack";
 
 const DPU = () => {
     return (
         <Container>
-            <Title order={3}>DPU (Delivered at Place Unloaded)</Title>
+            <Grid>
+                <Grid.Col span={10}>
+                    <Title order={3}>DPU (Delivered at Place Unloaded)</Title>
+                </Grid.Col>
+                <Grid.Col span={2}>
+                    <Image src="https://i.ibb.co/NKNYRtX/simbolos.png" />
+                </Grid.Col>
+            </Grid>
+
             <Text xs="sm">Mercancía entregada y descargada en el lugar convenido</Text>
             <br/>
 

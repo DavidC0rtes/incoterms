@@ -12,6 +12,7 @@ import {
     Image,
 } from '@mantine/core';
 import { Outlet, Link } from 'react-router-dom'
+import NewsletterSignUp from "../components/NewsletterSignUp";
 
 export default function AppShellDemo() {
     const theme = useMantineTheme();
@@ -23,8 +24,7 @@ export default function AppShellDemo() {
             fixed
             navbar={
                 <Navbar p="md" hiddenBreakpoint="sm" hidden={!opened} width={{ sm: 200, lg: 300 }}>
-                    <Text component={Link} to="/">Inicio</Text>
-                    <Text component={Link} to="/rules">Reglas Incoterms 2020</Text>
+                    <NewsletterSignUp/>
                 </Navbar>
             }
             aside={

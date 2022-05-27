@@ -1,13 +1,21 @@
 import {
     AspectRatio,
-    Container, Image, List, Text, Title,
+    Container, Grid, Image, List, Text, Title,
 } from "@mantine/core";
 import GoBack from "../../components/GoBack";
 
 const FCA = () => {
     return(
         <Container size="md">
-            <Title order={2} align="center">FCA</Title>
+            <Grid>
+                <Grid.Col span={10}>
+                    <Title order={2} align="center">FCA</Title>
+                </Grid.Col>
+                <Grid.Col span={2}>
+                    <Image src="https://i.ibb.co/NKNYRtX/simbolos.png" />
+                </Grid.Col>
+            </Grid>
+
             < hr />
             <Title order={3}>Free Carrier / Franco porteador</Title>
             <br />

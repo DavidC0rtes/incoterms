@@ -1,10 +1,18 @@
-import {AspectRatio, Container, Image, List, Text, Title} from "@mantine/core";
+import {AspectRatio, Container, Grid, Image, List, Text, Title} from "@mantine/core";
 import GoBack from "../../components/GoBack";
 
 const CPT = () => {
     return(
         <Container size="md">
-            <Title order={2}>CPT (Carriage Paid To)</Title>
+            <Grid>
+                <Grid.Col span={10}>
+                    <Title order={2}>CPT (Carriage Paid To)</Title>
+                </Grid.Col>
+                <Grid.Col span={2}>
+                    <Image src="https://i.ibb.co/NKNYRtX/simbolos.png" />
+                </Grid.Col>
+            </Grid>
+
             <Text xs="sm">Transporte pagado hasta (el lugar designado)</Text>
             <br/>
             <Title order={4}>Definición</Title> <br/>
