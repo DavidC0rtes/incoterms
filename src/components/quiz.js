@@ -14,9 +14,9 @@ export const quiz =  {
                 "Suministrar la mercancía y la factura comercial.",
             ],
             "correctAnswer": "1",
-            "messageForCorrectAnswer": "Respuesta correcta. ¡Buen trabajo!.",
-            "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-            "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "messageForCorrectAnswer": "Respuesta correcta. ¡Buen trabajo!",
+            "messageForIncorrectAnswer": "Respuesta incorrecta.",
+            "explanation": "",
             "point": "20"
         },
         {
@@ -30,8 +30,8 @@ export const quiz =  {
             ],
             "correctAnswer": "1",
             "messageForCorrectAnswer": "Respuesta correcta. ¡Buen trabajo!",
-            "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-            "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "messageForIncorrectAnswer": "Respuesta incorrecta.",
+            "explanation": "",
             "point": "20"
         },
         {
@@ -44,9 +44,9 @@ export const quiz =  {
                 "Franco al borde"
             ],
             "correctAnswer": "1",
-            "messageForCorrectAnswer": "Correct answer. Good job.",
-            "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-            "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "messageForCorrectAnswer": "Respuesta correcta. ¡Buen trabajo!",
+            "messageForIncorrectAnswer": "Respuesta incorrecta.",
+            "explanation": "",
             "point": "10"
         },
         {
@@ -59,9 +59,9 @@ export const quiz =  {
                 "El comprador se encarga de todo el proceso de entrega de la mercancía.",
             ],
             "correctAnswer": "2",
-            "messageForCorrectAnswer": "Correct answer. Good job.",
-            "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-            "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "messageForCorrectAnswer": "Respuesta correcta. ¡Buen trabajo!",
+            "messageForIncorrectAnswer": "Respuesta incorrecta.",
+            "explanation": "",
             "point": "30"
         },
         {
@@ -74,9 +74,9 @@ export const quiz =  {
                 "Transporte seguro y pagado hasta "
             ],
             "correctAnswer": "1",
-            "messageForCorrectAnswer": "Correct answer. Good job.",
-            "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-            "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "messageForCorrectAnswer": "Respuesta correcta. ¡Buen trabajo!",
+            "messageForIncorrectAnswer": "Respuesta incorrecta.",
+            "explanation": "",
             "point": "20"
         },
         {
@@ -89,9 +89,9 @@ export const quiz =  {
                 "El vendedor debe dejar las mercancías preparadas en sus instalaciones (oficinas, almacenes, fábrica, etc.) para que el comprador las recoja allí.",
             ],
             "correctAnswer": "2",
-            "messageForCorrectAnswer": "Correct answer. Good job.",
-            "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-            "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "messageForCorrectAnswer": "Respuesta correcta. ¡Buen trabajo!",
+            "messageForIncorrectAnswer": "Respuesta incorrecta.",
+            "explanation": "",
             "point": "20"
         },
         {
@@ -103,9 +103,9 @@ export const quiz =  {
                 "FALSO",
             ],
             "correctAnswer": "2",
-            "messageForCorrectAnswer": "Correct answer. Good job.",
-            "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-            "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "messageForCorrectAnswer": "Respuesta correcta. ¡Buen trabajo!",
+            "messageForIncorrectAnswer": "Respuesta incorrecta.",
+            "explanation": "",
             "point": "20"
         }
     ],

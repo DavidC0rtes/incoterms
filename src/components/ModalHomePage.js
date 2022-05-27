@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react'
-import { Text, Button, Modal } from "@mantine/core";
+import {Text, Button, Modal, AspectRatio} from "@mantine/core";
 
 const ModalHomePage = () => {
     const [open, setOpen] = useState(() => {
@@ -16,9 +16,13 @@ const ModalHomePage = () => {
         <Modal
             opened={open}
             onClose={() => setOpen(false)} title={<Text weight={700}>¿Quieres aprender cómo usar los Incoterms 2020 en tu empresa?</Text>}>
-            <Button compact onClick={() => setOpen(false)}>
-                Dame clic para comenzar.
-            </Button>
+            <AspectRatio ratio={4/3} mx="auto">
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/0GM77EyuomU"
+                        title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
+                </iframe>
+            </AspectRatio>
         </Modal>
     )
 }

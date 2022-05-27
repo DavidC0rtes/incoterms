@@ -15,7 +15,7 @@ export const quiz1 =  {
             ],
             "correctAnswer": "1",
             "messageForCorrectAnswer": "Respuesta correcta. ¡Buen trabajo!",
-            "messageForIncorrectAnswer": "Respuesta incorrecta.",
+            "messageForIncorrectAnswer": "Respuesta incorrecta. Se crearon como respuesta a los problemas del comercio internacional originados por las diferentes interpretaciones de cada país sobre los acuerdos de transporte.",
             "explanation": "Se crearon como respuesta a los problemas del comercio internacional originados por las diferentes interpretaciones de cada país sobre los acuerdos de transporte.",
             "point": "20"
         },
@@ -30,7 +30,7 @@ export const quiz1 =  {
             ],
             "correctAnswer": "1",
             "messageForCorrectAnswer": "Respuesta correcta. ¡Buen trabajo!",
-            "messageForIncorrectAnswer": "Respuesta incorrecta.",
+            "messageForIncorrectAnswer": "Respuesta incorrecta. Para establecer definiciones estándares sobre cómo se van a repartir las responsabilidades, los gastos y la transmisión de riesgo entre quien compra y quien tiene de mercancía internacional en venta.",
             "explanation": "Para establecer definiciones estándares sobre cómo se van a repartir las responsabilidades, los gastos y la transmisión de riesgo entre quien compra y quien tiene de mercancía internacional en venta.",
             "point": "20"
         },
@@ -45,7 +45,7 @@ export const quiz1 =  {
             ],
             "correctAnswer": "1",
             "messageForCorrectAnswer": "Respuesta correcta. ¡Buen trabajo!",
-            "messageForIncorrectAnswer": "Respuesta incorrecta.",
+            "messageForIncorrectAnswer": "Respuesta incorrecta. En la actual versión de los Incoterms®2020, las reglas se representan con 11 términos o siglas",
             "explanation": "En la actual versión de los Incoterms®2020, las reglas se representan con 11 términos o siglas",
             "point": "10"
         },

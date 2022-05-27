@@ -8,6 +8,7 @@ import Intro from "../views/Intro";
 import TransportModes from "../views/TransportModes";
 import RuleTabs from "../views/RuleTabs";
 import CustomQuiz from "./CustomQuiz";
+import LinksOfInterest from "../views/LinksOfInterest";
 
 const CustomStepper = () => {
     const [active, setActive] = useState(() => {
@@ -29,22 +30,22 @@ const CustomStepper = () => {
         <>
             <ScrollArea>
                 <Stepper active={active} onStepClick={setActive} orientation="horizontal" size="sm" pb="1em">
-                    <Stepper.Step label="¿Qué son?" allowStepSelect={false}>
+                    <Stepper.Step label="¿Qué son?" allowStepSelect={active > 0}>
                     </Stepper.Step>
-                    <Stepper.Step label="Tipos de transporte" description="" allowStepSelect={false}>
+                    <Stepper.Step label="Tipos de transporte" description="" allowStepSelect={active > 1}>
 
                     </Stepper.Step>
-                    <Stepper.Step label="Reglas" description="" allowStepSelect={false}>
+                    <Stepper.Step label="Reglas" description="" allowStepSelect={active > 2}>
 
                     </Stepper.Step>
-                    <Stepper.Step label="Evalúa" description="" allowStepSelect={false}>
+                    <Stepper.Step label="Evalúa" description="" allowStepSelect={active > 3}>
 
                     </Stepper.Step>
-                    <Stepper.Step label="Profundiza" description="" allowStepSelect={false}>
+                    <Stepper.Step label="Profundiza" description="" allowStepSelect={active > 4}>
 
                     </Stepper.Step>
                     <Stepper.Completed>
-                        Completed, click back button to get to previous step
+                        Has completado todas las etapas, clic en "Anterior" para ir a la etapa previo.
                     </Stepper.Completed>
                 </Stepper>
             </ScrollArea>
@@ -52,6 +53,7 @@ const CustomStepper = () => {
             {active === 1 && <TransportModes/>}
             {active === 2 && <RuleTabs/>}
             {active === 3 && <CustomQuiz/>}
+            {active === 4 && <LinksOfInterest/>}
             <Group position="center" mt="md">
                 <Button onClick={prevStep} color="indigo">Anterior</Button>
                 <Button onClick={nextStep} color="indigo">Siguiente</Button>
