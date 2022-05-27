@@ -39,7 +39,7 @@ function SubscribeBtn() {
                 opened={opened}
                 withCloseButton
                 onClose={() => setOpened(false)}
-                size="md"
+                size="sm"
                 radius="md"
             >
                 <Text size="sm" style={{ marginBottom: 10 }} weight={500}>
@@ -48,7 +48,7 @@ function SubscribeBtn() {
 
                 <Group align="flex-end">
                     <TextInput placeholder="email@example.com" style={{ flex: 1 }} />
-                    <Button compact onClick={() => setOpened(false)}>Suscribir</Button>
+                    <Button compact size="xs" onClick={() => setOpened(false)}>Suscribir</Button>
                 </Group>
             </Dialog>
 
