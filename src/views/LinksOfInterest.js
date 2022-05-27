@@ -1,5 +1,6 @@
 import {Grid, Title} from "@mantine/core";
 import ImageLink from "../components/ImageLink";
+import SubscribeBtn from "../components/SubscribeBtn";
 
 const LinksOfInterest = () => {
     return (

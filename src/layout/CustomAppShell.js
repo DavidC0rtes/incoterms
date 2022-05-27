@@ -13,6 +13,7 @@ import {
 } from '@mantine/core';
 import { Outlet } from 'react-router-dom'
 import NewsletterSignUp from "../components/NewsletterSignUp";
+import SubscribeBtn from "../components/SubscribeBtn";
 
 export default function AppShellDemo() {
     const theme = useMantineTheme();
@@ -67,6 +68,7 @@ export default function AppShellDemo() {
             }
         >
             <Outlet />
+            <SubscribeBtn/>
         </AppShell>
     );
 }

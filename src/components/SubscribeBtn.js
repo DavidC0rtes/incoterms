@@ -20,7 +20,7 @@ function SubscribeBtn() {
     return (
         <>
             <Affix position={{ bottom: 45, right: 20 }}>
-                <Transition transition="slide-up" mounted={scroll.y > 0}>
+                <Transition transition="slide-up" mounted={true}>
                     {(transitionStyles) => (
                         <Button
                             leftIcon={<EnvelopeClosedIcon />}
