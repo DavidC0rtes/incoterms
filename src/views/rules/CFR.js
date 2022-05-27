@@ -1,4 +1,5 @@
 import {AspectRatio, Container, Image, Text, Title} from "@mantine/core";
+import GoBack from "../../components/GoBack";
 
 const CFR = () => {
     return (
@@ -25,7 +26,7 @@ const CFR = () => {
                 src={"https://i.ibb.co/k3MP3LM/CFR.png"}
             />
             <br/>
-
+            <GoBack/>
         </Container>
     )
 }

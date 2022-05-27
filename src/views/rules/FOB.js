@@ -1,4 +1,5 @@
 import {AspectRatio, Container, Image, Text, Title} from "@mantine/core";
+import GoBack from "../../components/GoBack";
 
 const FOB = () => {
     return (
@@ -13,9 +14,10 @@ const FOB = () => {
             <br/>
 
             <AspectRatio ratio={4/3} mx="auto">
-                <iframe title={"video-fob"}
-                        src="https://drive.google.com/file/d/1atCW8L38FcCdHC_CniFBCf7hqDujtfrH/preview"
-                        width="640" height="480" allow="autoplay">
+                <iframe width="819" height="480" src="https://www.youtube.com/embed/PZLJ3glSwss"
+                        title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
                 </iframe>
             </AspectRatio>
 
@@ -33,7 +35,7 @@ const FOB = () => {
                 src={"https://i.ibb.co/tDYcVSQ/FOB.png"}
             />
             <br/>
-            
+            <GoBack/>
         </Container>
     )
 }

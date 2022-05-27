@@ -54,7 +54,7 @@ const CustomStepper = () => {
             {active === 3 && <CustomQuiz/>}
             <Group position="center" mt="md">
                 <Button onClick={prevStep} color="indigo">Anterior</Button>
-                <Button onClick={nextStep} color="indigo">Siguiente nivel</Button>
+                <Button onClick={nextStep} color="indigo">Siguiente</Button>
             </Group>
         </>
     )

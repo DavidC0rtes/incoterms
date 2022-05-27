@@ -4,7 +4,7 @@ import {
     Image,
     AspectRatio
 } from "@mantine/core";
-import CustomCollapse from "../components/CustomCollapse";
+
 import IncoDo from "./IncoDo";
 import IncoDont from "./IncoDont";
 
@@ -19,7 +19,15 @@ const Intro = () => {
                 height="100%"
                 width="90%"
             />
-
+            <br/>
+            <AspectRatio ratio={4/3} mx="auto">
+                <iframe width="848" height="480" src="https://www.youtube.com/embed/lD7H2HPsd4w"
+                        title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
+                </iframe>
+            </AspectRatio>
+            <br/>
             <Text>
                     Los Incoterms® 2020 son los términos comerciales oficiales publicados por la Cámara de Comercio Internacional (CCI).
                     Se trata de un texto voluntario, autorizado, aceptado y respetado en todo el mundo para determinar
@@ -29,6 +37,8 @@ const Intro = () => {
                     Además, los Incoterms son conocidos y aplicados por las principales naciones comerciales.
             </Text>
 
+
+            <br/>
             <AspectRatio ratio={4 / 3} mx="auto">
                 <iframe width="619" height="348" src="https://www.youtube.com/embed/0XxKKF4My4g"
                         title="YouTube video player" frameBorder="0"
@@ -55,6 +65,12 @@ const Intro = () => {
 
             <IncoDo />
             <IncoDont />
+            <br/>
+            <Title order={3}>Lo nuevo en esta versión</Title>
+            <Image radius={4}
+                   src="https://i.ibb.co/zbgRMW7/incoterms-nuevo.jpg"
+                   alt="Imagen describiendo las nuevas reglas de la versión 2020."
+            />
         </>
     )
 }

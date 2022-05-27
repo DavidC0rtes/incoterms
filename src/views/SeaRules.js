@@ -20,6 +20,12 @@ const cards = [
         text: "Cost and Freight",
         link: "/rules/cfr",
     },
+    {
+        src: "https://i.ibb.co/2Nhnv8R/CIF.png",
+        title: "CIF",
+        text: "Cost, Insurance and Freight",
+        link: "/rules/cif",
+    }
 ]
 
 const SeaRules = () => {

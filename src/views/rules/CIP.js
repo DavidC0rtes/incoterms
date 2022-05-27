@@ -1,4 +1,5 @@
 import {AspectRatio, Container, Image, Text, Title} from "@mantine/core";
+import GoBack from "../../components/GoBack";
 
 const CIP = (props) => {
     return (
@@ -13,9 +14,10 @@ const CIP = (props) => {
             <br/>
 
             <AspectRatio ratio={4/3} mx={"auto"}>
-                <iframe title="cip-video"
-                        src="https://drive.google.com/file/d/1G_QI1y7xMjEqLhal3ofaftTkftgKn7kt/preview"
-                        width="640" height="480" allow="autoplay">
+                <iframe width="848" height="480" src="https://www.youtube.com/embed/EY12uz91r9c"
+                        title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
                 </iframe>
             </AspectRatio>
 
@@ -36,7 +38,7 @@ const CIP = (props) => {
                 radius={4}
                 src={"https://i.ibb.co/4fHmr68/CIP-Infograf-a.jpg"}
             />
-
+            <GoBack/>
         </Container>
     )
 }

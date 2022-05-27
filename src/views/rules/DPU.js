@@ -1,4 +1,5 @@
 import {AspectRatio, Container, Image, Text, Title} from "@mantine/core";
+import GoBack from "../../components/GoBack";
 
 const DPU = () => {
     return (
@@ -13,9 +14,10 @@ const DPU = () => {
             <br/>
 
             <AspectRatio ratio={4/3} mx="auto">
-                <iframe title="dpu-video"
-                        src="https://drive.google.com/file/d/11KBYumYGUG7Iy7AiNljuEmjaSvP9oeqn/preview"
-                        width="640" height="480" allow="autoplay">
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/bHi8pip9DRM"
+                        title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
                 </iframe>
             </AspectRatio>
 
@@ -37,6 +39,7 @@ const DPU = () => {
                 src={"https://i.ibb.co/dPQQC0c/DPU-infograf-a.jpg"}
                 alt={"Infografía sobre el Incoterm DPU"}
             />
+            <GoBack/>
         </Container>
     )
 }

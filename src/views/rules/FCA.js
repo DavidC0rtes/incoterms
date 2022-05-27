@@ -2,6 +2,7 @@ import {
     AspectRatio,
     Container, Image, List, Text, Title,
 } from "@mantine/core";
+import GoBack from "../../components/GoBack";
 
 const FCA = () => {
     return(
@@ -11,10 +12,10 @@ const FCA = () => {
             <Title order={3}>Free Carrier / Franco porteador</Title>
             <br />
             <AspectRatio ratio={4/3} mx="auto">
-                <iframe title="video-fca"
-                        src="https://drive.google.com/file/d/1rcCJETrqHhjFo5jyxvlgoO50SztkYnPl/preview"
-                        width="640" height="480"
-                        allow="autoplay">
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/looCVY_YbAE"
+                        title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
                 </iframe>
             </AspectRatio>
             <br/>
@@ -48,6 +49,7 @@ const FCA = () => {
             </List>
             <Image radius={4} src={"../FCA1.png"}/>
             <Image radius={4} src={"../FCA2.png"}/>
+            <GoBack/>
         </Container>
     )
 }

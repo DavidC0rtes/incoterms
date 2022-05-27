@@ -4,39 +4,45 @@ import CustomCard from "../components/CustomCard";
 const Rules = () => {
     const cards = [
         {
-            src: "exw.png",
-            title: "EXW - EX Works",
+            src: "EXW.jpg",
+            title: "EXW",
+            text: "EX Works",
             link: "/rules/exw"
         },
         {
-            src: "fcafree.png",
-            title: "FCA Free Carrier",
+            src: "FCA1.png",
+            title: "FCA",
+            text: "Free Carrier",
             link: "/rules/fca"
         },
         {
-            src: "cpt.png",
-            title: "CPT - Carriage Paid To",
+            src: "CPT.png",
+            title: "CPT",
+            text: "Carriage Paid To",
             link: "/rules/cpt",
         },
         {
-            src: "cip.png",
+            src: "https://i.ibb.co/sRbXXHr/CIP.png",
             title: "CIP",
             text: "Carriage and Insurance Paid To",
             link: "/rules/cip",
         },
         {
-            src: "dap.png",
-            title: "DAP - Delivered At Place",
+            src: "https://i.ibb.co/XZqLMJ9/DAP.png",
+            title: "DAP",
+            text: "Delivered At Place",
             link: "/rules/dap",
         },
         {
-            src: "dpu.png",
-            title: "DPU - Delivered at Place Unloaded",
+            src: "https://i.ibb.co/9c7sPJp/DPU.png",
+            title: "DPU",
+            text: "Delivered at Place Unloaded",
             link: "/rules/dpu",
         },
         {
-            src: "ddp.png",
-            title: "DDP - Delivered Duty Paid",
+            src: "https://i.ibb.co/XZqLMJ9/DAP.png",
+            title: "DDP",
+            text: "Delivered Duty Paid",
             link: "/rules/ddp",
         }
     ]

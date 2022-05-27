@@ -5,6 +5,7 @@ import {
     Text,
     List, AspectRatio,
 } from "@mantine/core";
+import GoBack from "../../components/GoBack";
 
 
 const EXW = () => {
@@ -24,10 +25,10 @@ const EXW = () => {
             </Text>
             <br />
             <AspectRatio ratio={4/3} mx="auto">
-                <iframe title="exw"
-                        src="https://drive.google.com/file/d/1785xlcg-j6MbSeq54lgs_W_jJ8iRYm7H/preview"
-                        width="640" height="480"
-                        allow="autoplay">
+                <iframe width="848" height="480" src="https://www.youtube.com/embed/La4xX-JnHYU"
+                        title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
                 </iframe>
             </AspectRatio>
             <br/>
@@ -60,6 +61,7 @@ const EXW = () => {
                 alt="Regla EXW"
                 src={"https://i.ibb.co/wsfnNQ3/EXW-infografia.jpg"}
             />
+            <GoBack/>
         </Container>
     )
 }

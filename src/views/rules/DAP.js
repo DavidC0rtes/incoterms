@@ -1,4 +1,5 @@
 import {AspectRatio, Container, Image, Text, Title} from "@mantine/core";
+import GoBack from "../../components/GoBack";
 
 const DAP = () => {
     return (
@@ -12,6 +13,14 @@ const DAP = () => {
             </Text>
             <br/>
 
+            <AspectRatio ratio={4/3} mx={"auto"}>
+                <iframe width="835" height="480" src="https://www.youtube.com/embed/o0vRwaz1fYY"
+                        title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
+                </iframe>
+            </AspectRatio>
+            <br/>
             <Image
                 radius={4}
                 src={"https://i.ibb.co/XZqLMJ9/DAP.png"}
@@ -38,6 +47,7 @@ const DAP = () => {
                 src={"https://i.ibb.co/S0YNQKc/DAP-infografia-2.jpg"}
                 alt={"Infografía sobre el Incoterm DAP"}
             />
+            <GoBack/>
         </Container>
     )
 }

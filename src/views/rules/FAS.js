@@ -1,4 +1,5 @@
 import {AspectRatio, Container, Image, Text, Title} from "@mantine/core";
+import GoBack from "../../components/GoBack";
 
 const FAS = () => {
     return (
@@ -13,9 +14,10 @@ const FAS = () => {
             <br/>
 
             <AspectRatio ratio={4/3} mx="auto">
-                <iframe title={"video-fas"}
-                        src="https://drive.google.com/file/d/1YPQ6nBRxi1d5WLJ4OPXEJaaf7oLYEiKI/preview" width="640"
-                        height="480" allow="autoplay">
+                <iframe width="835" height="480" src="https://www.youtube.com/embed/zjvIEZa9dXA"
+                        title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
                 </iframe>
             </AspectRatio>
 
@@ -46,6 +48,7 @@ const FAS = () => {
                 src={"https://i.ibb.co/Xx7Yp98/FAS-Infografia.jpg"}
                 alt={"Infografía sobre el Incoterm FAS"}
             />
+            <GoBack/>
         </Container>
     )
 }

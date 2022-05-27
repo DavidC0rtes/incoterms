@@ -1,77 +1,77 @@
 export const quiz =  {
-    "quizTitle": "React Quiz Component Demo",
-    "quizSynopsis": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim",
-    "nrOfQuestions": "4",
+    "quizTitle": "Evalúa tus conocimientos",
+    "quizSynopsis": "Estas a punto de iniciar el nivel medio de dificultad, ¡buena suerte!",
+    "nrOfQuestions": "7",
     "questions": [
         {
-            "question": "How can you access the state of a component from inside of a member function?",
+            "question": "¿De qué se encarga el vendedor en el Incoterm CPT?",
             "questionType": "text",
-            "questionPic": "https://dummyimage.com/600x400/000/fff&text=X", // if you need to display Picture in Question
+            "questionPic": "", // if you need to display Picture in Question
             "answerSelectionType": "single",
             "answers": [
-                "this.getState()",
-                "this.prototype.stateValue",
-                "this.state",
-                "this.values"
+                "El vendedor se encarga del transporte de mercancías, deben permanecer en buenas condiciones,  hasta el lugar convenido y el comprador contrata el seguro.",
+                "El vendedor en el CPT se encarga de embalar las mercancías para transportarlas con seguridad.",
+                "Suministrar la mercancía y la factura comercial.",
             ],
-            "correctAnswer": "3",
-            "messageForCorrectAnswer": "Correct answer. Good job.",
+            "correctAnswer": "1",
+            "messageForCorrectAnswer": "Respuesta correcta. ¡Buen trabajo!.",
             "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
             "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "point": "20"
         },
         {
-            "question": "ReactJS is developed by _____?",
+            "question": "¿Qué significa el Incoterm CIF?",
             "questionType": "text",
             "answerSelectionType": "single",
             "answers": [
-                "Google Engineers",
-                "Facebook Engineers"
+                "Las palabras en inglés Cost, Insurance and Freight (Costo, seguro y flete). Este concepto se refiere a que el costo de la mercancía en el momento de la venta incluye también el valor del transporte marítimo o fluvial e igualmente el seguro de viaje.",
+                "Significa que el vendedor en este Incoterm realiza la entrega de la mercancía",
+                "Significa que el vendedor entrega la mercancía a disposición del comprados en el lugar designado"
             ],
-            "correctAnswer": "2",
-            "messageForCorrectAnswer": "Correct answer. Good job.",
+            "correctAnswer": "1",
+            "messageForCorrectAnswer": "Respuesta correcta. ¡Buen trabajo!",
             "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
             "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "point": "20"
         },
         {
-            "question": "ReactJS is an MVC based framework?",
+            "question": "¿Que significan las siglas del incoterm FOB?",
             "questionType": "text",
             "answerSelectionType": "single",
             "answers": [
-                "True",
-                "False"
+                "Franco a bordo",
+                "Franco a punto de abordar",
+                "Franco al borde"
             ],
-            "correctAnswer": "2",
+            "correctAnswer": "1",
             "messageForCorrectAnswer": "Correct answer. Good job.",
             "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
             "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "point": "10"
         },
         {
-            "question": "Which of the following concepts is/are key to ReactJS?",
+            "question": "¿ Qué significa el incoterm FOB?",
             "questionType": "text",
             "answerSelectionType": "single",
             "answers": [
-                "Component-oriented design",
-                "Event delegation model",
-                "Both of the above",
+                "El comprador designa el punto de entrega de la mercancia.",
+                "El vendedor entrega la mercancía a bordo del buque designado por el comprador en el puerto de embarque.",
+                "El comprador se encarga de todo el proceso de entrega de la mercancía.",
             ],
-            "correctAnswer": "3",
+            "correctAnswer": "2",
             "messageForCorrectAnswer": "Correct answer. Good job.",
             "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
             "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "point": "30"
         },
         {
-            "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "questionType": "photo",
+            "question": "¿Qué significa las siglas DDP?",
+            "questionType": "text",
             "answerSelectionType": "single",
             "answers": [
-                "https://dummyimage.com/600x400/000/fff&text=A",
-                "https://dummyimage.com/600x400/000/fff&text=B",
-                "https://dummyimage.com/600x400/000/fff&text=C",
-                "https://dummyimage.com/600x400/000/fff&text=D"
+                "Entrega con derechos pagados",
+                "Listo para el embarque",
+                "Transporte seguro y pagado hasta "
             ],
             "correctAnswer": "1",
             "messageForCorrectAnswer": "Correct answer. Good job.",
@@ -80,20 +80,43 @@ export const quiz =  {
             "point": "20"
         },
         {
-            "question": "What are the advantages of React JS?",
+            "question": "¿Qué significa el incoterm DPU?",
             "questionType": "text",
-            "answerSelectionType": "multiple",
+            "answerSelectionType": "single",
             "answers": [
-                "React can be used on client and as well as server side too",
-                "Using React increases readability and makes maintainability easier. Component, Data patterns improves readability and thus makes it easier for manitaining larger apps",
-                "React components have lifecycle events that fall into State/Property Updates",
-                "React can be used with any other framework (Backbone.js, Angular.js) as it is only a view layer"
+                "El vendedor cubre todos los gastos ocasionados tanto en origen como en destino, excluyendo el descargue en destino, el vendedor adquiere el riesgo una vez la mercancía sea entregada o llegue al sitio acordado en destino.",
+                "El vendedor entrega la mercancía hasta el sitio en destino, cubre todos los gastos. El comprador debe cubrir los gastos generados en aduana de importación.",
+                "El vendedor debe dejar las mercancías preparadas en sus instalaciones (oficinas, almacenes, fábrica, etc.) para que el comprador las recoja allí.",
             ],
-            "correctAnswer": [1, 2, 4],
+            "correctAnswer": "2",
             "messageForCorrectAnswer": "Correct answer. Good job.",
             "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
             "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "point": "20"
         },
-    ]
+        {
+            "question": "¿Es obligatorio contratar un seguro de transporte para el término FOB?",
+            "questionType": "text",
+            "answerSelectionType": "single",
+            "answers": [
+                "VERDADERO",
+                "FALSO",
+            ],
+            "correctAnswer": "2",
+            "messageForCorrectAnswer": "Correct answer. Good job.",
+            "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+            "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "point": "20"
+        }
+    ],
+    "appLocale": {
+        "landingHeaderText": "<questionLength> preguntas",
+        "question": "Pregunta",
+        "startQuizBtn": "Comenzar Quiz",
+        "resultFilterAll": "All",
+        "resultFilterCorrect": "Correct",
+        "resultFilterIncorrect": "Incorrect",
+        "nextQuestionBtn": "Siguiente pregunta",
+        "resultPageHeaderText": "Has completado el quiz. Acertaste <correctIndexLength> de <questionLength> preguntas."
+    }
 }

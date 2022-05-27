@@ -23,6 +23,9 @@ import DDP from "./views/rules/DDP";
 import FAS from "./views/rules/FAS";
 import FOB from "./views/rules/FOB";
 import CFR from "./views/rules/CFR";
+import CustomQuiz from "./components/CustomQuiz";
+import BegQuiz from "./components/BegQuiz";
+import CIF from "./views/rules/CIF";
 
 
 function App() {
@@ -47,6 +50,8 @@ function App() {
                     <Route path={"rules/fas"} element={<FAS/>} />
                     <Route path={"rules/fob"} element={<FOB/>} />
                     <Route path={"rules/cfr"} element={<CFR/>} />
+                    <Route path={"rules/cif"} element={<CIF/>} />
+                    <Route path={"begginer"} element={<BegQuiz/>}/>
                 </Route>
             </Routes>
         </BrowserRouter>

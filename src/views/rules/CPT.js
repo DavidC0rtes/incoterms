@@ -1,4 +1,5 @@
 import {AspectRatio, Container, Image, List, Text, Title} from "@mantine/core";
+import GoBack from "../../components/GoBack";
 
 const CPT = () => {
     return(
@@ -13,10 +14,10 @@ const CPT = () => {
             </Text>
             <br/>
             <AspectRatio ratio={4/3} mx="auto">
-                <iframe title="exw"
-                        src="https://drive.google.com/file/d/1ZFVPqI-wXpiB7PEsa5PIyZjZHR7MaH66/preview"
-                        width="640" height="480"
-                        allow="autoplay">
+                <iframe width="816" height="480" src="https://www.youtube.com/embed/eI2XsfYV58U"
+                        title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
                 </iframe>
             </AspectRatio>
 
@@ -42,6 +43,7 @@ const CPT = () => {
                 alt="Regla CPT"
                 src={"https://i.ibb.co/JrLP6mR/cpt-infografia-pages-to-jpg-0001.jpg"}
             />
+            <GoBack/>
         </Container>
     )
 }

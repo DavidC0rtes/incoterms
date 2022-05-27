@@ -1,4 +1,5 @@
 import {AspectRatio, Container, Image, Text, Title} from "@mantine/core";
+import GoBack from "../../components/GoBack";
 
 const DDP = () => {
     return (
@@ -13,9 +14,10 @@ const DDP = () => {
             <br/>
 
             <AspectRatio ratio={4/3} mx="auto">
-                <iframe title={"video-ddp"}
-                    src="https://drive.google.com/file/d/1JD4M8OBGy9EOs9-iH8yPWUYcMxB-V_8o/preview"
-                        width="640" height="480" allow="autoplay">
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/Z0WbwQ1qfYk"
+                        title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
                 </iframe>
             </AspectRatio>
 
@@ -37,6 +39,7 @@ const DDP = () => {
                 src={"https://i.ibb.co/93g06Pm/DDP-Infografia.jpg"}
                 alt={"Infografía sobre el Incoterm DDP"}
             />
+            <GoBack/>
         </Container>
     )
 }
