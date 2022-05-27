@@ -7,6 +7,7 @@ import {
 
 import IncoDo from "./IncoDo";
 import IncoDont from "./IncoDont";
+import Notice from "../components/Notice";
 
 const Intro = () => {
     return (
@@ -71,6 +72,12 @@ const Intro = () => {
                    src="https://i.ibb.co/zbgRMW7/incoterms-nuevo.jpg"
                    alt="Imagen describiendo las nuevas reglas de la versión 2020."
             />
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            <Notice />
         </>
     )
 }

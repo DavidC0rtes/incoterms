@@ -11,7 +11,7 @@ import {
     useMantineTheme,
     Image,
 } from '@mantine/core';
-import { Outlet, Link } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
 import NewsletterSignUp from "../components/NewsletterSignUp";
 
 export default function AppShellDemo() {

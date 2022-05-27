@@ -1,5 +1,6 @@
 import TextWall from "../components/TextWall";
-import {AspectRatio, Image, List, Text, Timeline, Title} from "@mantine/core";
+import {AspectRatio, Image, List, Text, Title} from "@mantine/core";
+import Notice from "../components/Notice";
 
 const TransportModes = () => {
     return (
@@ -86,6 +87,10 @@ const TransportModes = () => {
             <Title order={3}>Comparación</Title>
             <br />
             <Image radius="md" src="infografia.webp" />
+            <br/>
+            <br/>
+            <br/>
+            <Notice/>
         </TextWall>
 
 

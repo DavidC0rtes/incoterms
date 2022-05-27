@@ -1,4 +1,4 @@
-import { BackgroundImage, Center, Text, Box, Paper } from '@mantine/core';
+import { BackgroundImage, Center, Text, Paper } from '@mantine/core';
 
 function ImageLink(props) {
     return (

@@ -1,6 +1,6 @@
 import { ArrowLeftIcon } from '@radix-ui/react-icons';
 import { useWindowScroll } from '@mantine/hooks';
-import { Affix, Button, Text, Transition } from '@mantine/core';
+import { Affix, Button, Transition } from '@mantine/core';
 import { Link } from 'react-router-dom'
 
 function GoBack() {

@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react'
-import {Text, Button, Modal, AspectRatio} from "@mantine/core";
+import {Text, Modal, AspectRatio} from "@mantine/core";
 
 const ModalHomePage = () => {
     const [open, setOpen] = useState(() => {

@@ -1,6 +1,5 @@
 import {Container} from "@mantine/core";
 
-import HomeStack from "./HomeStack";
 import CustomStepper from "./CustomStepper";
 import ModalHomePage from "./ModalHomePage";
 

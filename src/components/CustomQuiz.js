@@ -2,7 +2,6 @@ import Quiz from 'react-quiz-component'
 import {quiz} from "./quiz";
 import {quiz1} from "./quiz1";
 import {quiz2} from "./quiz2";
-import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import {Image, Notification, Text} from "@mantine/core";
 

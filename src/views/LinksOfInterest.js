@@ -1,5 +1,4 @@
 import {Grid, Title} from "@mantine/core";
-import CustomCard from "../components/CustomCard";
 import ImageLink from "../components/ImageLink";
 
 const LinksOfInterest = () => {

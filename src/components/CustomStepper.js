@@ -2,7 +2,7 @@ import {useState, useEffect } from "react";
 import {
     Stepper,
     Button,
-    Group, ScrollArea, Container,
+    Group, ScrollArea,
 } from '@mantine/core'
 import Intro from "../views/Intro";
 import TransportModes from "../views/TransportModes";

@@ -1,4 +1,4 @@
-import {AspectRatio, Container, Image, Text, Title} from "@mantine/core";
+import {Container, Image, Text, Title} from "@mantine/core";
 import GoBack from "../../components/GoBack";
 
 const CFR = () => {
